@@ -1,16 +1,8 @@
 #include "Func.h"
 #include <time.h>
-/////////////////////////////////////
-//
-//  GPU Computing Project - Canny Edge Detection
-//  GPU_Func.cu외 모든 Code는 수정하지 말 것
-//  불가피하게 수정해야 할 경우 조교에게 문의
-//
-/////////////////////////////////////
 
 int main()
 {
-
 	chrono::duration<double> c_end = chrono::duration<double>::zero();
 	chrono::duration<double> g_end = chrono::duration<double>::zero();
  	chrono::system_clock::time_point time;

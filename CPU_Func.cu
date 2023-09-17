@@ -1,3 +1,5 @@
+// TEST FILE : Sample Canny edge detection with C++ only
+
 #include "Func.h"
 
 void Grayscale(uint8_t* buf, uint8_t* gray, uint8_t start_add, int len) {
